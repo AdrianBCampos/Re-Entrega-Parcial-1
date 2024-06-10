@@ -61,13 +61,7 @@ class Comision extends Observable {
         return this.getAlumnosEnEspera();
     }
 
-    /*private EstadoComision getEstadoComision() {
-        return estadoComision;
-    }
 
-    public EstadoComision obtenerEstadoComision() {
-        return this.getEstadoComision();
-    }*/
 
     public String verEstadoComision() {
         return estadoComision.getNombreEstado();
@@ -75,26 +69,11 @@ class Comision extends Observable {
 
 
 
-    /*private void setEstadoComision(EstadoComision estadoComision) {
-        this.estadoComision = estadoComision;
-    }*/
+
 
     public void cambiarEstadoComision(EstadoComision nuevoEstado) {
         this.estadoComision = nuevoEstado;
     }
-
-
-    /*public void enEspera(Comision comision) {
-        this.estadoComision.enEspera(this);
-    }
-
-    public void Activa(Comision comision) {
-        this.estadoComision.activa(this);
-    }
-
-    public void Llena(Comision comision) {
-        this.estadoComision.llena(this);
-    }*/
 
 
     private boolean estaInscripto(Alumno unAlumno) {
@@ -115,35 +94,6 @@ class Comision extends Observable {
         }
     }
 
-
-
-    /*public void cancelarInscripcionAlumno(Alumno unAlumno) {
-        try {
-            if (alumnosInscriptos.remove(unAlumno)) {
-                System.out.println("Se canceló correctamente la inscripción de " + unAlumno.getNombre() + " " + unAlumno.getApellido());
-
-                // Actualizar el estado de la comisión basado en el nuevo tamaño de la lista de inscritos
-                if (alumnosInscriptos.size() < cupoMin) {
-                    setEstadoComision(new EnEspera());
-                } else if (alumnosInscriptos.size() < cupoMax) {
-                    setEstadoComision(new Activa());
-                }
-
-                // Si hay alumnos en espera, inscribir al primero de la lista
-                if (!alumnosEnEspera.isEmpty()) {
-                    Alumno alumnoEnEspera = alumnosEnEspera.remove(0); // Eliminar el primer alumno de la lista de espera
-                    inscribirAlumno(alumnoEnEspera); // Intentar inscribir al alumno de la lista de espera
-                    notifyObservers(this); // Notificar al primer observador
-                }
-
-            } else {
-                throw ComisionException.alumnoNoInscripto(unAlumno);
-            }
-        } catch (ComisionException e) {
-            System.out.println(e.getMessage());
-        }
-    }*/
-    //////////////////////////////////////////////////////////////////
 
     public void cancelarInscripcionAlumno(Alumno unAlumno) {
     try {
@@ -182,23 +132,10 @@ class Comision extends Observable {
         }
     }
 
-    //////////////////////////////////////////////////////////////////////////////
-
-
-
 
     public void comenzar() {
         estadoComision.comenzar(this);
     }
-
-    /*public List<Alumno> listaDeInscriptos() {
-        return new ArrayList<>(alumnosInscriptos);
-    }
-
-    public List<Alumno> listaDeEspera() {
-        return new ArrayList<>(alumnosEnEspera);
-    }*/
-
 
 
     @Override
@@ -235,5 +172,13 @@ class Comision extends Observable {
     public String toString() {
         return "Comision de " + this.obtenerNombreMateria() + " los días " + diaDeClase;
     }
+
+     /*private void setEstadoComision(EstadoComision estadoComision) {
+        this.estadoComision = estadoComision;
+    }*/
+
+    /*private EstadoComision getEstadoComision() {
+        return estadoComision;
+    }*/
 
 }

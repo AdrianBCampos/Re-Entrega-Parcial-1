@@ -4,26 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f00df44-f555-456d-a3a4-e5a5b19b161f" name="Changes" comment="refactorizado">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Re-entregaParcial1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Activa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Comision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComisionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EmailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EnEspera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EstadoComision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Llena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Materia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Profesor.java" afterDir="false" />
+    <list default="true" id="2f00df44-f555-456d-a3a4-e5a5b19b161f" name="Changes" comment="Parcial 1 Finished">
+      <change beforePath="$PROJECT_DIR$/src/Comision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Comision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Observable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "AdrianBCampos"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AdrianBCampos/Re-Entrega-Parcial-1",
+    "accountId": "f24105be-7120-4cc8-a39b-a13be5dc194d"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -90,8 +85,17 @@
       <workItem from="1717460253089" duration="533000" />
       <workItem from="1717858647596" duration="8294000" />
       <workItem from="1717942498387" duration="19966000" />
-      <workItem from="1717983445666" duration="4327000" />
+      <workItem from="1717983445666" duration="5568000" />
     </task>
+    <task id="LOCAL-00001" summary="Parcial 1 Finished">
+      <option name="closed" value="true" />
+      <created>1717989652269</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717989652269</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="refactorizado" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactorizado" />
+    <MESSAGE value="Parcial 1 Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parcial 1 Finished" />
   </component>
 </project>

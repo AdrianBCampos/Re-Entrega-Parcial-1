@@ -18,9 +18,7 @@ class Observable {
         System.out.println("Observador eliminado: " + observer);
     }
 
-    /*private List<Observer> getObservers() {
-        return observers;
-    }*/
+
 
     public List<Observer> obtenerListaDeObservers() {
         return observers;
@@ -32,6 +30,10 @@ class Observable {
             firstObserver.update(comisionObservada);
         }
     }
+
+     /*private List<Observer> getObservers() {
+        return observers;
+    }*/
 
 
 
